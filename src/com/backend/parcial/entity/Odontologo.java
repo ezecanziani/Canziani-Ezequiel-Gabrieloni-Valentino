@@ -1,6 +1,8 @@
 package com.backend.parcial.entity;
 
-public class Odontologo {
+import java.awt.*;
+
+public class Odontologo extends Point {
     private int matricula;
     private String nombre;
     private String apellido;
@@ -38,5 +40,10 @@ public class Odontologo {
     @Override
     public String toString() {
         return "Odontologo [matricula=" + matricula + ", nombre=" + nombre + ", apellido=" + apellido + "]";
+    }
+
+    public int getId() {
+
+        return 0;
     }
 }
